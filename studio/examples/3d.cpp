@@ -51,7 +51,7 @@ int FMOD_Main()
     ERRCHECK( system.loadBankFile(Common_MediaPath("AudenFMOD_Sounds.bank"), &soundsBank) );
     
     FMOD::Studio::ID eventID = {0};
-    ERRCHECK( system.lookupEventID("/Music/MoodyArpeggioVIRUS_MC", &eventID) );
+    ERRCHECK( system.lookupEventID("/Music/SoftJazzy_MC", &eventID) );
     
     FMOD::Studio::EventDescription eventDescription;
     ERRCHECK( system.getEvent(&eventID, FMOD_STUDIO_LOAD_BEGIN_NOW, &eventDescription) );
