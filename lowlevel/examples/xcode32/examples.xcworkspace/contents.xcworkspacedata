@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+<FileRef location = "group:3d.xcodeproj" />
+<FileRef location = "group:channel_groups.xcodeproj" />
+<FileRef location = "group:dsp_custom.xcodeproj" />
+<FileRef location = "group:dsp_effect_per_speaker.xcodeproj" />
+<FileRef location = "group:effects.xcodeproj" />
+<FileRef location = "group:generate_tone.xcodeproj" />
+<FileRef location = "group:granular_synth.xcodeproj" />
+<FileRef location = "group:load_from_memory.xcodeproj" />
+<FileRef location = "group:multiple_speaker.xcodeproj" />
+<FileRef location = "group:multiple_system.xcodeproj" />
+<FileRef location = "group:play_sound.xcodeproj" />
+<FileRef location = "group:play_stream.xcodeproj" />
+<FileRef location = "group:user_created_sound.xcodeproj" />
+<FileRef location = "group:fmod_distance_filter.xcodeproj" />
+<FileRef location = "group:fmod_gain.xcodeproj" />
+</Workspace>

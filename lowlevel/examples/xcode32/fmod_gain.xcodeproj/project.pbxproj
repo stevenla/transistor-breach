@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFA41FB71654A10E005DF8E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA41FB61654A10E005DF8E4 /* Cocoa.framework */; };
+        BBBBBBBBBBBB000000000000 = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAA000000000000; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF77A847165B0DC4004D5BC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        AAAAAAAAAAAA000000000000 = {isa = PBXFileReference; name = fmod_gain.cpp; path = ../plugins/fmod_gain.cpp; sourceTree = "<group>"; };
+		AFA41FB61654A10E005DF8E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFFF96911630FB6A00804536 /* example.dylib */ = {isa = PBXFileReference; explicitFileType = compiled.mach-o.dylib; includeInIndex = 0; path = example.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFF968E1630FB6A00804536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA41FB71654A10E005DF8E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFFF96861630FB6A00804536 = {
+			isa = PBXGroup;
+			children = (
+				AFFF96C3746D33BF00804536 /* Sources */,
+				AFFF96BD163103C400804536 /* Libraries */,
+				AFFF96921630FB6A00804536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFF96921630FB6A00804536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF96911630FB6A00804536 /* example.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFF96BD163103C400804536 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AFA41FB61654A10E005DF8E4 /* Cocoa.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		AFFF96C3746D33BF00804536 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+                DDDDDDDDDDDD000000000001,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+        DDDDDDDDDDDD000000000001 = {
+            isa = PBXGroup;
+            children = (
+                AAAAAAAAAAAA000000000000,
+            );
+            name = plugins;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFF96901630FB6A00804536 /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF969B1630FB6A00804536 /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				AFFF968D1630FB6A00804536 /* Sources */,
+				AFFF968E1630FB6A00804536 /* Frameworks */,
+				AF77A847165B0DC4004D5BC2 /* CopyFiles */,
+				AFC16064167078A400003773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+            name = fmod_gain;
+			productReference = AFFF96911630FB6A00804536 /* example.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFF96881630FB6A00804536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Firelight Technologies";
+			};
+			buildConfigurationList = AFFF968B1630FB6A00804536 /* Build configuration list for PBXProject "example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFFF96861630FB6A00804536;
+			productRefGroup = AFFF96921630FB6A00804536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFF96901630FB6A00804536 /* example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC16064167078A400003773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFF968D1630FB6A00804536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                BBBBBBBBBBBB000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFFF96991630FB6A00804536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = ../../../lowlevel/inc;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = $PROJECT_NAME;
+				SDKROOT = macosx;
+				STRIPFLAGS = "-x -r";
+				SYMROOT = _builds;
+			};
+			name = Debug;
+		};
+		AFFF969A1630FB6A00804536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_ENABLE_CPP_RTTI = NO;
+				HEADER_SEARCH_PATHS = ../../../lowlevel/inc;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = $PROJECT_NAME;
+				SDKROOT = macosx;
+				STRIPFLAGS = "-x -r";
+				SYMROOT = _builds;
+			};
+			name = Release;
+		};
+		AFFF969C1630FB6A00804536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                COMBINE_HIDPI_IMAGES = YES;
+			};
+			name = Debug;
+		};
+		AFFF969D1630FB6A00804536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+                COMBINE_HIDPI_IMAGES = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFF968B1630FB6A00804536 /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF96991630FB6A00804536 /* Debug */,
+				AFFF969A1630FB6A00804536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF969B1630FB6A00804536 /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF969C1630FB6A00804536 /* Debug */,
+				AFFF969D1630FB6A00804536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFF96881630FB6A00804536 /* Project object */;
+}
