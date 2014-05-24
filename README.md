@@ -7,7 +7,10 @@ WIP tool to extract audio from FMOD .bank v2 files. Works for OS X, but the
 `.cpp` files should be portable.
 
 Currently only works for Transistor by Supergiant Games. Move all .bank files
-(including the .strings) to the media folder. Extracting music is hard-coded:
+(including the .strings) to the media folder. Names are found in the `GUID.txt`
+file in the game's asset folder.
+
+Extracting music is hard-coded:
 change the string parameter in `lookupEventID` to the name of the audio you
 want to extract. Uncomment `lowLevel->setOutput()` to extract audio to a wav
 file stored in the same folder as the application. The program does not quit
